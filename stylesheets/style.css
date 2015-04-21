@@ -109,31 +109,26 @@ nav {
   }
 
 footer {
-  position: absolute;
-  height: 350px;
-  width: 100%;
-  background-color: black;
-  color: white;
-  margin-top: 30px;
+  width:100%;
+  min-height:200px;    
 }
 
-.onderwerpen {
-  width: 60%;
-  margin: auto;
-  padding-top: 40px;
+.column {
+  width:32.5%;
+  height:200px;
+  float:left;
+  margin:0;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.left{
-text-align:left;
-float:left;
+#meta-links {
+ width:100%;
+ background-color:red;
+ float:left;   
+ height:40px;
 }
-.right{
-float:right;
-text-align:right;
-}
-.centered{
-text-align:center;
-}
+
 
 
 
